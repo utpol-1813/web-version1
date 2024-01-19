@@ -1,0 +1,126 @@
+ *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+ }
+ 
+ .menu-container{
+    background: #adaaaa;
+    padding: 10px;
+    color: #985d5de9;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+ }
+ .menus{
+    display: flex;
+    justify-content: space-around;
+ }
+ .logo-photo{
+    width: 175px;
+    height: 75px;
+    margin-left: 20px;
+ }
+ .item{
+    margin-right: 30px;
+    padding: 0px;
+    font-size: 20px;
+    cursor: pointer;
+ }
+ .item:hover{
+    color: black;
+ }
+ .banner-image{
+    width: 500px;
+ }
+ .banner-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    /* border: 2px solid gray; */
+    color: white;
+    background-color: rgb(67, 66, 66);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+ }
+ .title{
+    font-size: 2.5rem;
+    font-weight: bold;
+
+ }
+ .destription{
+    font-size: 1.5rem;
+    margin-top: 15px;
+    margin-bottom: 15px;
+ }
+ .btn{
+    padding: 10px 15px;
+    background-color: #000000;
+    color: rgb(125, 70, 176);
+    border: none;
+    border-radius: 10px;
+ }
+ .consumer-img{
+    width: 400px;
+ }
+ .consumer-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    color: white;
+    background-color: aqua;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: row-reverse;
+
+ }
+ .researcher-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    /* border: 2px solid gray; */
+    color: white;
+    background-color: rgb(67, 66, 66);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+ .copyright{
+    text-align: center;
+    color: rgb(189, 186, 186);
+    background-color: #000000;
+
+ }
+ .latest{
+    width: 400px;
+ }
+ .everything-short{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    height: 50vh;
+    align-items: center;
+    background-color: rgb(148, 148, 148);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+ }
+ .content{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+ }
+
+ .farmer{
+    margin-bottom: 20%;
+    padding: 30px;
+ }

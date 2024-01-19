@@ -1,0 +1,135 @@
+/* Resetting CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Added box-sizing for consistent sizing */
+}
+
+/* Navbar Styles */
+.menu-container {
+    background: #adaaaa;
+    padding: 10px; /* Added padding for better spacing */
+    color: rgb(152, 113, 113);
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Adjusted spacing */
+}
+
+.menus {
+    display: flex;
+}
+
+.logo-photo {
+    width: 150px;
+    height: 50px;
+}
+
+.item {
+    margin-right: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.item:hover {
+    color: black;
+}
+
+/* Banner Styles */
+.banner-container {
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    color: white;
+    background-color: rgb(67, 66, 66);
+}
+
+.title {
+    font-size: 2.5rem; /* Adjusted font size */
+    font-weight: bold;
+}
+
+.description {
+    font-size: 1.5rem; /* Adjusted font size */
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.btn {
+    padding: 10px 15px;
+    background-color: #000000;
+    color: rgb(125, 70, 176);
+    border: none;
+    border-radius: 10px;
+}
+
+.banner-image {
+    width: 500px;
+}
+
+/* Consumer Styles */
+.consumer-container {
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    color: white;
+    background-color: aqua; /* Changed background color for illustration */
+}
+
+.consumer-img {
+    width: 400px;
+}
+
+/* Researcher Styles */
+.researcher-container {
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    color: white;
+    background-color: rgb(67, 66, 66);
+}
+
+/* Everything Short Styles */
+.everything-short {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    height: 50vh;
+    align-items: center;
+    background-color: rgb(148, 148, 148);
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.farmer {
+    padding: 30px;
+}
+
+.farmer ul {
+    list-style: none; /* Removed default list styling */
+    margin-top: 20px;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    color: rgb(189, 186, 186);
+    background-color: #000000;
+    padding: 10px; /* Added padding for better spacing */
+}
+
+/* Latest Styles */
+.latest {
+    width: 400px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    /* Add responsive styles here */
+}
